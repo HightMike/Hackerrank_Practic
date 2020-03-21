@@ -1,6 +1,8 @@
 package Strings;
 
-
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 //https://www.hackerrank.com/challenges/java-anagrams/problem
@@ -9,11 +11,11 @@ public class Anagram {
 
     static boolean isAnagram(String a, String b) {
 
-        java.util.List<String> listA = new java.util.ArrayList<>();
-        java.util.List<String> listB = new java.util.ArrayList<>();
+        List<String> listA = new ArrayList<>();
+        List<String> listB = new ArrayList<>();
 
-        java.util.Collections.addAll(listA, a.toLowerCase().split(""));
-        java.util.Collections.sort(listA);
+        Collections.addAll(listA, a.toLowerCase().split(""));
+        Collections.sort(listA);
 
         StringBuilder stringBuilderA = new StringBuilder();
         StringBuilder stringBuilderB = new StringBuilder();
@@ -22,8 +24,8 @@ public class Anagram {
             stringBuilderA.append(string);
         }
 
-        java.util.Collections.addAll(listB, b.toLowerCase().split(""));
-        java.util.Collections.sort(listB);
+        Collections.addAll(listB, b.toLowerCase().split(""));
+        Collections.sort(listB);
 
         for (String string : listB) {
             stringBuilderB.append(string);
