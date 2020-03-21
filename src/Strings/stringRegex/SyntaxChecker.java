@@ -1,4 +1,4 @@
-package Strings;
+package Strings.stringRegex;
 
 //https://www.hackerrank.com/challenges/pattern-syntax-checker/problem
 

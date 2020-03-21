@@ -1,4 +1,4 @@
-package Strings;
+package Strings.stringRegex;
 
 import java.util.Scanner;
 //https://www.hackerrank.com/challenges/java-string-tokens/problem
