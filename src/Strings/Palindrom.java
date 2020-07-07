@@ -1,11 +1,6 @@
 package Strings;
-
-
 //https://www.hackerrank.com/challenges/java-string-reverse/problem
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class Palindrom {
