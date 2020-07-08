@@ -2,6 +2,8 @@ package Preparation.Arrays;
 import java.io.IOException;
 import java.util.Scanner;
 
+//https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
+
 public class ArrayLeftRotation {
 
     // Complete the rotLeft function below.
