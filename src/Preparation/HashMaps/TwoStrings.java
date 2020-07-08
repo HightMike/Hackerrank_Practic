@@ -5,13 +5,10 @@ import java.util.*;
 
 public class TwoStrings {
 
-
-
     static String twoStrings(String s1, String s2) {
         Set<String> set1 = new HashSet<>(Arrays.asList(s1.split("")));
-        Iterator<String> i = set1.iterator();
-        while (i.hasNext()) {
-            if(s2.contains(i.next())) {
+        for (String s : set1) {
+            if (s2.contains(s)) {
                 return "YES";
             }
         }
