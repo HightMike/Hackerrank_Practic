@@ -1,7 +1,6 @@
 package Preparation.Strings;
 
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class MakeAnagram {
@@ -30,7 +29,6 @@ public class MakeAnagram {
     public static void main(String[] args) throws IOException {
 
         String a = scanner.nextLine();
-
         String b = scanner.nextLine();
 
         int res = makeAnagram(a, b);
