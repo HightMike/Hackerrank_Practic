@@ -3,7 +3,7 @@ package Preparation.Sorting;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
-
+//https://www.hackerrank.com/challenges/mark-and-toys/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting
 public class MarkAndToys {
 
     static int maximumToys(int[] prices, int k) {
